@@ -1,0 +1,1388 @@
+
+
+{
+	"type" : "FeatureCollection",
+	"name" : "Ladestationen-E-Autos_EPSG4326_JSON",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0688478208, 51.2320437349 ]
+			},
+			"properties" : {
+				"STANDORT" : "Einkaufszentrum Akzenta Vohwinkel",
+				"STATUS" : "online",
+				"ADRESSE" : "Am Stationsgarten 2",
+				"BETREIBER" : "Akzenta GmbH & Co KG - Akzenta Verwaltung",
+				"ZEITEN" : "Mo-Sa 7.30-21.00 Uhr",
+				"PARKGEB" : "Die Ladedauer beträgt max. 90 Min. und ist zurzeit kostenlos.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Der Ladeplatz befindet sich rechts neben dem Geschäftseingang.",
+				"ZUSATZINFO" : "Kundenparkplatz",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/akzenta_vohwinkel.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2553009251, 51.3092673431 ]
+			},
+			"properties" : {
+				"STANDORT" : "IKEA Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Schmiedestraße 81",
+				"BETREIBER" : "IKEA Einrichtungshaus Wuppertal",
+				"ZEITEN" : "Mo,Di,Mi,Do,Sa 10.00-20.00 Uhr | Fr 10.00-22.00 Uhr",
+				"PARKGEB" : "Vorgaben des Betreibers beachten.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : "Wegweisung führt zu den Ladeplätzen.",
+				"ZUSATZINFO" : "Kundenparkplatz",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/ikea.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2069645674, 51.2723886985 ]
+			},
+			"properties" : {
+				"STANDORT" : "Schwebebahnstation Werther Brücke",
+				"STATUS" : "online",
+				"ADRESSE" : "Zur Werther Brücke 2",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich an der Schwebebahnstation Werther Brücke. Die Ladeplätze sind über die Zufahrt Heckinghauser Straße erreichbar.",
+				"ZUSATZINFO" : "Park + Ride",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/werther_bruecke.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1880699845, 51.2772299704 ]
+			},
+			"properties" : {
+				"STANDORT" : "WSW Zentrale",
+				"STATUS" : "online",
+				"ADRESSE" : "Bromberger Straße 39",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Der Ladeplatz befindet sich rechts neben dem Haupteingang der WSW-Zentrale.",
+				"ZUSATZINFO" : "Cambio CarSharing-Station Bromberger",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/wsw_zentrale.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1513606544, 51.2571366092 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkhaus HofaueCity",
+				"STATUS" : "offline",
+				"ADRESSE" : "Hofaue 71",
+				"BETREIBER" : "Contipark Unternehmensgruppe",
+				"ZEITEN" : "Mo-So 6.00-23.59 Uhr",
+				"PARKGEB" : "Siehe Aushang im Parkhaus.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich auf der rechten Seite der Einfahrtebene.",
+				"ZUSATZINFO" : "Die Ladestationen sind zurzeit nicht verfügbar.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/hofauecity.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1901737402, 51.2677692739 ]
+			},
+			"properties" : {
+				"STANDORT" : "Einkaufszentrum Akzenta Barmen",
+				"STATUS" : "online",
+				"ADRESSE" : "Unterdörnen 63",
+				"BETREIBER" : "Akzenta GmbH & Co KG - Akzenta Verwaltung",
+				"ZEITEN" : "Mo-Sa 7.30-21.00 Uhr",
+				"PARKGEB" : "Die Ladedauer beträgt für Kunden max. 90 Min. und ist zurzeit kostenlos.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Der Ladeplatz befindet sich links vor der Ausfahrt in Richtung Oberdörnen.",
+				"ZUSATZINFO" : "Kundenparkplatz",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/akzenta_barmen.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1926831184, 51.2668603616 ]
+			},
+			"properties" : {
+				"STANDORT" : "Opernhaus",
+				"STATUS" : "online",
+				"ADRESSE" : "Wittensteinstraße 320",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich an der Zufahrt Wittensteinstraße.",
+				"ZUSATZINFO" : "Parkplatz Opernhaus",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/opernhaus.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1289047633, 51.2057701826 ]
+			},
+			"properties" : {
+				"STANDORT" : "TIC Theater",
+				"STATUS" : "online",
+				"ADRESSE" : "Borner Straße 1",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich links neben der Zufahrt.",
+				"ZUSATZINFO" : "Parkplatz TIC Theater und Stadtbibliothek Cronenberg",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/tic_theater.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2470899245, 51.275785308 ]
+			},
+			"properties" : {
+				"STANDORT" : "Pommernstraße",
+				"STATUS" : "online",
+				"ADRESSE" : "Pommernstraße 4",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Die Ladeplätze befinden sich gegenüber des Wohnhauses Nummer 4.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/pommernstrasse.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1515791946, 51.2586663721 ]
+			},
+			"properties" : {
+				"STANDORT" : "Kipdorf",
+				"STATUS" : "online",
+				"ADRESSE" : "Kipdorf 52",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich auf der linken Seite des Parkplatzes.",
+				"ZUSATZINFO" : "Parkplatz Kipdorf",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/kipdorf.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.151149468, 51.2551047034 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkhaus Wuppertal Hauptbahnhof",
+				"STATUS" : "online",
+				"ADRESSE" : "Döppersberg 1",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Siehe Aushang im Parkhaus.",
+				"ANZ_LADEPL" : 8,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze (128, 129, 130, 131) befinden sich auf der Parkebene 1.",
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/hauptbahnhof.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.105869939, 51.2404110378 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkplatz Zoologischer Garten",
+				"STATUS" : "online",
+				"ADRESSE" : "Boettingerweg 3",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich gegenüber des Stadions am Zoo.",
+				"ZUSATZINFO" : "Parkplatz Zoo Stadion",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/zoo_stadion.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2496073733, 51.3115001118 ]
+			},
+			"properties" : {
+				"STANDORT" : "FertighausWelt Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Fertighauswelt 1",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Nach dem Ladevorgang freigeben..",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich links neben dem Eingang.",
+				"ZUSATZINFO" : "Parkplatz FertighausWelt",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/fertighauswelt.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2959457976, 51.2495114292 ]
+			},
+			"properties" : {
+				"STANDORT" : "Am Wupperstollen",
+				"STATUS" : "online",
+				"ADRESSE" : "Am Wupperstollen 1",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Freiwillige Feuerwehr Wuppertal-Beyenburg",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/wupperstollen.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0766012536, 51.2332214082 ]
+			},
+			"properties" : {
+				"STANDORT" : "Einkaufszentrum Kaufland-Vohwinkel",
+				"STATUS" : "online",
+				"ADRESSE" : "Kaiserstraße 39",
+				"BETREIBER" : "Feldt+Jädtke Parkhaus GmbH",
+				"ZEITEN" : "Mo-Sa 7.00-22.00 Uhr",
+				"PARKGEB" : "Die Ladedauer berägt für Kunden ca. 1,5 Std. und ist zurzeit kostenlos.",
+				"ANZ_LADEPL" : 5,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich am Eingang mit Aufzug.",
+				"ZUSATZINFO" : "Kundenparkplatz",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/kaufland_vohwinkel.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2035149284, 51.2658813456 ]
+			},
+			"properties" : {
+				"STANDORT" : "Wupperverband",
+				"STATUS" : "online",
+				"ADRESSE" : "Untere Lichtenplatzer Straße 100",
+				"BETREIBER" : "EMobility Netzwerk Deutschland GmbH",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : null,
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Zugang zum Ladepunkt beim Betreiber erfragen!",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1037168265, 51.2701609874 ]
+			},
+			"properties" : {
+				"STANDORT" : "Bayer Forschungszentrum",
+				"STATUS" : "online",
+				"ADRESSE" : "Aprather Weg 18",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich links neben der Zufahrt.",
+				"ZUSATZINFO" : "Parkplatz Bayer Forschungszentrum",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/bayer_forschungszentrum.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1962139278, 51.2675869706 ]
+			},
+			"properties" : {
+				"STANDORT" : "Barmer Bahnhof",
+				"STATUS" : "online",
+				"ADRESSE" : "Ibachstraße 20",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich links neben der Zufahrt.",
+				"ZUSATZINFO" : "Parkplatz Barmer Bahnhof",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/bahnhof_barmen.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1518781201, 51.2558240713 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkhaus Fleming's Express Hotel Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Döppersberg 50",
+				"BETREIBER" : "Fleming's Hotel Management & Servicegesellschaft mbH & Co. KG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Siehe Aushang im Parkhaus.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze (326 und 327) befinden sich auf der Parkebene 3.",
+				"ZUSATZINFO" : "Ladeplatz 326 (Tesla Wallbox), Ladeplatz 327 (Typ 2 Wallbox)",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/flemings_hotel.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0655782271, 51.229872566 ]
+			},
+			"properties" : {
+				"STANDORT" : "WSW- Vohwinkler Straße",
+				"STATUS" : "online",
+				"ADRESSE" : "Vohwinkeler Straße 43",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befindet sich im Zentrum des Parkplatzes.",
+				"ZUSATZINFO" : "Parkplatz an der Schwebebahnstation Vohwinkel.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/schwebebahnstation_vohwinkel.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1036918123, 51.2436159315 ]
+			},
+			"properties" : {
+				"STANDORT" : "Fa. Bayer-Tor 1",
+				"STATUS" : "online",
+				"ADRESSE" : "Friedrich-Ebert-Straße 475",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/bayer_tor1.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1626489402, 51.2611468791 ]
+			},
+			"properties" : {
+				"STANDORT" : "Hardt / Elisenhöhe",
+				"STATUS" : "online",
+				"ADRESSE" : "Otto-Schell-Weg 18",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Erste Parkreihe nach der Einfahrt.",
+				"ZUSATZINFO" : "Parkplatz Hardt / Elisenhöhe",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/hardt_elisenhoehe.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1989499113, 51.2725853504 ]
+			},
+			"properties" : {
+				"STANDORT" : "Rathaus Barmen",
+				"STATUS" : "online",
+				"ADRESSE" : "Große Flurstraße 41",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich links vor der Einfahrt ins Parkhaus Rathaus Barmen.",
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/rathaus_barmen.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1441161353, 51.266226702 ]
+			},
+			"properties" : {
+				"STANDORT" : "Mirke / Bahnhof",
+				"STATUS" : "online",
+				"ADRESSE" : "Mirker Straße 59",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich gegenüber des Mirker Bahnhofs.",
+				"ZUSATZINFO" : "An der Nordbahntrasse.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/mirker_strasse.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1230581892, 51.274624229 ]
+			},
+			"properties" : {
+				"STANDORT" : "Lidl Filiale",
+				"STATUS" : "online",
+				"ADRESSE" : "Nevigeser Straße 170",
+				"BETREIBER" : "Lidl Stiftung GmbH & Co. KG",
+				"ZEITEN" : "Mo-Sa 7.00-21.00 Uhr",
+				"PARKGEB" : null,
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1259652096, 51.2289702161 ]
+			},
+			"properties" : {
+				"STANDORT" : "Kinderhaus zur Kaisereiche",
+				"STATUS" : "online",
+				"ADRESSE" : "Zur Kaisereiche 24",
+				"BETREIBER" : "Kinderhaus zur Kaisereiche",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2384092172, 51.2791111965 ]
+			},
+			"properties" : {
+				"STANDORT" : "Shell Tankstelle Dahlerstraße",
+				"STATUS" : "online",
+				"ADRESSE" : "Dahler Straße 34",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2451983998, 51.265590902 ]
+			},
+			"properties" : {
+				"STANDORT" : "BAB 1; Autobahnraststätte Ehrenberg West",
+				"STATUS" : "online",
+				"ADRESSE" : "Autobahn A1/E37 ",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 6,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2489597348, 51.265548864 ]
+			},
+			"properties" : {
+				"STANDORT" : "BAB 1; Autobahnraststätte Kucksiepen",
+				"STATUS" : "online",
+				"ADRESSE" : "Autobahn A1/E37 ",
+				"BETREIBER" : "Charge-ON GmbH",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1317776366, 51.2523340993 ]
+			},
+			"properties" : {
+				"STANDORT" : "BMW Procar Automobile",
+				"STATUS" : "online",
+				"ADRESSE" : "Friedrich-Ebert-Straße 105",
+				"BETREIBER" : "Procar Automobile GmbH",
+				"ZEITEN" : "Mo-Fr 7.00-18.30 Uhr | Sa 9.00-13.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2371145698, 51.2855331606 ]
+			},
+			"properties" : {
+				"STANDORT" : "Verband der Feuerwehren in NRW",
+				"STATUS" : "online",
+				"ADRESSE" : "Windhukstraße 80",
+				"BETREIBER" : "Verband der Feuerwehren in NRW",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Ladesäule wird durch Mitarbeiter für Gäste freigeschaltet.",
+				"ZUSATZINFO" : "kostenlos für Gäste.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1902451559, 51.2446852676 ]
+			},
+			"properties" : {
+				"STANDORT" : "Hornbach Lichtscheid",
+				"STATUS" : "online",
+				"ADRESSE" : "Oberbergische Straße 201",
+				"BETREIBER" : "Pfalzwerke AG",
+				"ZEITEN" : "Mo-Sa 7.00-20.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.130364698, 51.2454613441 ]
+			},
+			"properties" : {
+				"STANDORT" : "Arrenberg Center Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Güterstraße 20",
+				"BETREIBER" : "shetani Digitalagentur",
+				"ZEITEN" : "Mo-Fr 0.00-7.00 Uhr | Mo-Fr 17.00-0.00 Uhr | Sa-So rund um die Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : null,
+				"BEMERKUNG" : "Der Ladepunkt muss über die Quellenstraße angefahren werden.",
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1259303898, 51.2354335979 ]
+			},
+			"properties" : {
+				"STANDORT" : "Energieladen Im Honigstal",
+				"STATUS" : "online",
+				"ADRESSE" : "Im Honigstal 52",
+				"BETREIBER" : "PV-Zaß",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Kosten: 30ct/kWh. Das Geld bitte in den Briefkasten werfen oder per PayPal an PV.Zass@gmail.com zahlen.",
+				"ZUSATZINFO" : "Keine Angaben zu Freischalt- oder Bezahlmethoden.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0829451652, 51.2482206538 ]
+			},
+			"properties" : {
+				"STANDORT" : "Erntegrund 23 - ChargePoint",
+				"STATUS" : "online",
+				"ADRESSE" : "Erntegrund 23",
+				"BETREIBER" : "ChargePoint Germany GmbH",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "EnBW mobility+ Standard-Tarif",
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1514369734, 51.2320250354 ]
+			},
+			"properties" : {
+				"STANDORT" : "Station Natur und Umwelt",
+				"STATUS" : "online",
+				"ADRESSE" : "Jägerhofstraße 229",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "Laden während der Öffnungszeit. Bitte beim Sekretariat anmelden.",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Der Ladeplatz befindet sich rechts neben dem Haupteingang.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/station_natur_umwelt.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1290508825, 51.2481768547 ]
+			},
+			"properties" : {
+				"STANDORT" : "Cafe Simonz",
+				"STATUS" : "offline",
+				"ADRESSE" : "Simonsstraße 36 a",
+				"BETREIBER" : "Cafe Simonz",
+				"ZEITEN" : "Mo-So 8.00-23.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "zurzeit Offline.",
+				"ZUSATZINFO" : "Momentan kostenlos.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1772377145, 51.2570298921 ]
+			},
+			"properties" : {
+				"STANDORT" : "Netzkern AG",
+				"STATUS" : "online",
+				"ADRESSE" : "Oberbergische Straße 63",
+				"BETREIBER" : "Ecotap",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Beim Betreiber erfragen.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/netzkern_ag.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1931090991, 51.2419180712 ]
+			},
+			"properties" : {
+				"STANDORT" : "Technologiezentrum Wuppertal W-tec GmbH",
+				"STATUS" : "online",
+				"ADRESSE" : "Heinz-Fangman-Straße 6",
+				"BETREIBER" : "Technologiezentrum Wuppertal W-tec GmbH",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Beim Betreiber erfragen.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/w_tec_zentrale.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1355961948, 51.2503917297 ]
+			},
+			"properties" : {
+				"STANDORT" : "Hyundai Autohaus Ludorf",
+				"STATUS" : "online",
+				"ADRESSE" : "Masurenstraße 24",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/hyundai_autohaus-ludorf.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1824178638, 51.2466004517 ]
+			},
+			"properties" : {
+				"STANDORT" : "Schwebebahnbistro CVJM Bundeshöhe",
+				"STATUS" : "online",
+				"ADRESSE" : "Bundeshöhe 7",
+				"BETREIBER" : "CVJM-Bildungsstätte Bundeshöhe",
+				"ZEITEN" : "Sa-So 13.00-17.30 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Bargeldzahlung: beim Betreiber erfragen.",
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/cvjm_bundeshoehe.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2561677361, 51.2826169412 ]
+			},
+			"properties" : {
+				"STANDORT" : "Tesla Supercharger KFC - Dieselstraße 65",
+				"STATUS" : "online",
+				"ADRESSE" : "Dieselstraße 65",
+				"BETREIBER" : "Tesla",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Parken kostenlos",
+				"ANZ_LADEPL" : 20,
+				"STROM" : "DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1663510766, 51.2853099742 ]
+			},
+			"properties" : {
+				"STANDORT" : "Malte Reiter Fotografie",
+				"STATUS" : "online",
+				"ADRESSE" : "Am Deckershäuschen 69",
+				"BETREIBER" : "Malte Reiter Fotografie",
+				"ZEITEN" : "Mo-Fr. 9.00-17.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Keine Angaben zu Freischalt- oder Bezahlmethoden.",
+				"ZUSATZINFO" : "Gegen Spende in die Kaffeekasse, können Kunden/Kunginnrn kostenfrei Ihr Elektroauto mit 100% Ökostrom an unserer Wallbox aufladen.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/malte_reiter_fotografie.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1325270231, 51.2455291989 ]
+			},
+			"properties" : {
+				"STANDORT" : "Allego GmbH",
+				"STATUS" : "online",
+				"ADRESSE" : "Viehhofstraße 125",
+				"BETREIBER" : "Allego GmbH",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Beim Betreiber erfragen.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/allego_gmbh.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1534778801, 51.2749045646 ]
+			},
+			"properties" : {
+				"STANDORT" : "Hellweg Baumarkt Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Uellendahler Straße 212",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "Mo-Sa: 8.00-20.00 Uhr",
+				"PARKGEB" : "Parken kostenlos",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich. Der Parkplatz wird außerhalb der Öffnungszeiten des Baumarkts mit Schranken geschlossen.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1077267537, 51.2575044279 ]
+			},
+			"properties" : {
+				"STANDORT" : "Lidl - Otto-Hausmann-Ring",
+				"STATUS" : "online",
+				"ADRESSE" : "Otto-Hausmann-Ring 116",
+				"BETREIBER" : "Lidl Stiftung GmbH & Co. KG",
+				"ZEITEN" : "Mo-Fr 7.00-22.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Direkt rechts bei der Haupt-Einfahrt auf den Parkplatz.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1325766266, 51.2532607885 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkplatz Robert-Daum-Platz",
+				"STATUS" : "online",
+				"ADRESSE" : "Friedrich-Ebert-Straße 100",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/robert_daum_platz.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1410812714, 51.2524846349 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkhaus Stadthalle und Hotel",
+				"STATUS" : "online",
+				"ADRESSE" : "Südstraße 26",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "Mo-Fr 7.00-22.00 Uhr | Sa 10.00-20.00 Uhr",
+				"PARKGEB" : "Siehe Aushang im Parkhaus.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich auf der rechten Seite der Einfahrtebene.",
+				"ZUSATZINFO" : "Zufahrt gegenüber Südstraße 26",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/stadthalle_hotel.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1437409107, 51.2550032468 ]
+			},
+			"properties" : {
+				"STANDORT" : "Alexanderstraße",
+				"STATUS" : "online",
+				"ADRESSE" : "Alexanderstraße 18",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich vor dem Verwaltungsgebäude Alexanderstraße 18.",
+				"ZUSATZINFO" : "Schwebebahnhaltestelle Ohligsmühle",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/alexanderstr.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1517509893, 51.2827169243 ]
+			},
+			"properties" : {
+				"STANDORT" : "Eulenhorst",
+				"STATUS" : "online",
+				"ADRESSE" : "Hermann-Ehlers-Straße 11",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Der Ladeplatz befindet sich vor der Häuserreihe mit den Hausnummern 19-19a.",
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/eulenhorst.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1005084739, 51.2505739316 ]
+			},
+			"properties" : {
+				"STANDORT" : "Mercedes- Benz - Deutscher Ring",
+				"STATUS" : "online",
+				"ADRESSE" : "Deutscher Ring 10",
+				"BETREIBER" : "Mercedes Benz AG",
+				"ZEITEN" : "Mo-Fr 7.30-18.00 | Sa 9.00-14.00",
+				"PARKGEB" : null,
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1029260988, 51.2511682495 ]
+			},
+			"properties" : {
+				"STANDORT" : "Mercedes- Benz - Varresbecker Straße",
+				"STATUS" : "online",
+				"ADRESSE" : "Varresbecker Straße 123",
+				"BETREIBER" : "Mercedes Benz AG",
+				"ZEITEN" : "Mo-Fr 7.30-18.00 | Sa 9.00-14.00",
+				"PARKGEB" : null,
+				"ANZ_LADEPL" : 4,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1733552949, 51.2833960459 ]
+			},
+			"properties" : {
+				"STANDORT" : "Autohaus Eylert",
+				"STATUS" : "online",
+				"ADRESSE" : "Uellendahler Straße 564",
+				"BETREIBER" : "AH Eylert, W-Elberfeld",
+				"ZEITEN" : "Mo.-Fr.: 09:00-18:00 Uhr\nSa.: 10:00-14:00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Die Ladestation ist nicht öffentlich. Hier kann nur auf Nachfrage getankt werden.",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1876701722, 51.2449455719 ]
+			},
+			"properties" : {
+				"STANDORT" : "Bauhaus Lichtscheid II",
+				"STATUS" : "offline",
+				"ADRESSE" : "Oberbergische Straße 200",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Störung: Ausfall Standort noch im Bau",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1992924725, 51.2386051448 ]
+			},
+			"properties" : {
+				"STANDORT" : "Hotel Park Villa & Sanitätshaus Beuthel",
+				"STATUS" : "online",
+				"ADRESSE" : "Erich-Hoepner-Ring 5",
+				"BETREIBER" : "Hotel Park Villa & Sanitätshaus Beuthel",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Achtung: Standgebühren, wenn Ladevorgang beendet ist! (0.10 EURO /min)",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1993158004, 51.2386002651 ]
+			},
+			"properties" : {
+				"STANDORT" : "LastMileSolutions / ThreeForce",
+				"STATUS" : "online",
+				"ADRESSE" : "Erich-Hoepner-Ring 5",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : "Beim Betreiber erfragen.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1272267608, 51.2686078427 ]
+			},
+			"properties" : {
+				"STANDORT" : "Aral Tankstelle Nevigeser Straße",
+				"STATUS" : "online",
+				"ADRESSE" : "Nevigeser Straße 31",
+				"BETREIBER" : "Aral pulse",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2204330613, 51.2338181678 ]
+			},
+			"properties" : {
+				"STANDORT" : "Brose Schließfachsysteme Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Otto-Hahn-Straße 34",
+				"BETREIBER" : "Brose Wuppertal - Schließsysteme",
+				"ZEITEN" : "Mo-Fr 8.00-17.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Die Ladestation befindet sich auf dem Firmengelände, daher ist das Laden nur während der Öffnungszeit möglich!",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1428545016, 51.2577713859 ]
+			},
+			"properties" : {
+				"STANDORT" : "Böhm E-Mobility/ Böhm Elektrobau",
+				"STATUS" : "online",
+				"ADRESSE" : "Neumarktstraße 44",
+				"BETREIBER" : "Böhm E-Mobility/ Böhm Elektrobau",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : null,
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/boehm_e_mobility.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1856961516, 51.279377353 ]
+			},
+			"properties" : {
+				"STANDORT" : "Shell Tankstelle Schützenstraße",
+				"STATUS" : "online",
+				"ADRESSE" : "Schützenstraße 27",
+				"BETREIBER" : "EnBW Energie Baden-Württemberg AG",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/shell_tankstelle_schuetzenstrasse27.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.212530342, 51.2741403628 ]
+			},
+			"properties" : {
+				"STANDORT" : "Weicken & Schmidt Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Berliner Straße 62",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "Mo-Do 7.00-16.30 Uhr | Fr 7.00-15.00 Uhr | Sa 7.30-12.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich. Während der Öffnungszeiten kann eine Ladekarte im Geschäft ausgeliehen werden.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/weicken_schmidt_wuppertal.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1980642256, 51.2267090831 ]
+			},
+			"properties" : {
+				"STANDORT" : "Bandwirkerplatz",
+				"STATUS" : "online",
+				"ADRESSE" : "Marktstraße 32",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 2,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Der Ladeplatz befindet sich am Ende der Parkbucht.",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/bandwirkerplatz.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2067175581, 51.2739016501 ]
+			},
+			"properties" : {
+				"STANDORT" : "Parkhaus Werther Carré",
+				"STATUS" : "online",
+				"ADRESSE" : "Kohlgarten 7",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Aushang im Parkhaus beachten.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/werther_caree.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1872500182, 51.2791300053 ]
+			},
+			"properties" : {
+				"STANDORT" : "WSW Schützenstraße",
+				"STATUS" : "online",
+				"ADRESSE" : "Schützenstraße 34",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "24 Stunden / 7 Tage",
+				"PARKGEB" : "Während des Ladevorgangs max. 4 Std. kostenfrei. Der Ladeplatz ist kein Parkplatz.",
+				"ANZ_LADEPL" : 3,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich vor dem Haupttor der WSW. Cambio CarSharing-Station Schützen.",
+				"ZUSATZINFO" : null,
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/wsw_schuetzenstrasse.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1951830862, 51.2320424915 ]
+			},
+			"properties" : {
+				"STANDORT" : "SchönerWaschen Wuppertal",
+				"STATUS" : "online",
+				"ADRESSE" : "Staubenthaler Straße 14",
+				"BETREIBER" : "Buscher Service GmbH",
+				"ZEITEN" : "Mo-Sa 6.00-22.00 Uhr",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : "Spontanladen (adhoc) ohne vorherige Registrierung ist hier möglich",
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1311975439, 51.2576789765 ]
+			},
+			"properties" : {
+				"STANDORT" : "Mercedes Benz - Briller Straße",
+				"STATUS" : "online",
+				"ADRESSE" : "Briller Straße 39",
+				"BETREIBER" : "Comfortcharge GmbH",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : "Beim Betreiber erfragen.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1894972367, 51.2805262422 ]
+			},
+			"properties" : {
+				"STANDORT" : "Autohaus Kuhlmann",
+				"STATUS" : "online",
+				"ADRESSE" : "Winchenbachstraße 11",
+				"BETREIBER" : "Autohaus Kuhlmann GmbH",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1889844336, 51.2446799162 ]
+			},
+			"properties" : {
+				"STANDORT" : "Bauhaus Lichtscheid I",
+				"STATUS" : "online",
+				"ADRESSE" : "Oberbergische Straße 200",
+				"BETREIBER" : "BAUHAUS Wuppertal-Barmen (Lichtscheid)",
+				"ZEITEN" : "Mo-Sa 7.00-20.00 Uhr",
+				"PARKGEB" : "Zurzeit keine.",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC",
+				"BEMERKUNG" : "Die Ladeplätze befinden sich im hinteren Bereich des Kundenparkplatzes.",
+				"ZUSATZINFO" : "Kundenparkplatz",
+				"URL" : "http://www.wuppertal.de/geoportal/emobil/autos/fotos/bauhaus_lichtscheid_1.jpg"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1531112758, 51.2761806951 ]
+			},
+			"properties" : {
+				"STANDORT" : "Volkswagen Zentrum & Skoda",
+				"STATUS" : "online",
+				"ADRESSE" : "Uellendahler Straße 245",
+				"BETREIBER" : "WSW Energie & Wasser AG - eMobilität",
+				"ZEITEN" : "Beim Betreiber erfragen.",
+				"PARKGEB" : "keine",
+				"ANZ_LADEPL" : 1,
+				"STROM" : "AC/DC",
+				"BEMERKUNG" : null,
+				"ZUSATZINFO" : null,
+				"URL" : null
+			}
+		}
+	]
+}
