@@ -31,6 +31,134 @@
         width: 100%;
 }
   
+  
+    /* Mobile Layout Styles */
+@media only screen and (max-width: 768px) {
+  /* Header Styles */
+  header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px;
+  }
+  /* Main Content Styles */
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+  }
+  /* Sidebar Styles */
+  aside {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
+  /* Article Styles */
+  article {
+      width: 100%;
+      padding: 10px;
+  }
+  /* Navbar Styles */
+  nav {
+      display: none;
+  }
+}
+
+  
+  @media only screen and (min-width: 500px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  
+  /* Laptop Layout Styles */
+@media only screen and (min-width: 768px) {
+  /* Header Styles */
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+  }
+  /* Main Content Styles */
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+  }
+  /* Sidebar Styles */
+  aside {
+      width: 25%;
+      padding: 20px;
+  }
+}
+  
+  /* Desktop Layout Styles */
+@media only screen and (min-width: 1024px) {
+    /* Header Styles */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    /* Main Content Styles */
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    /* Sidebar Styles */
+    aside {
+        width: 20%;
+        padding: 20px;
+    }
+    /* Article Styles */
+    article {
+        width: 75%;
+        padding: 20px;
+    }
+    /* Footer Styles */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
+
+  /* Responsive Navbar and Footer Styles */
+@media only screen and (max-width: 5000px) {
+    /* Navbar Styles */
+    nav {
+        flex-wrap: wrap;
+    }
+    nav a {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer Styles */
+    footer {
+        flex-wrap: wrap;
+    }
+    footer p {
+        width: 100%;
+        text-align: center;
+    }
+}
+  
 </style>
     
      
