@@ -15,7 +15,7 @@ L.marker([51.266, 7.175], 13).addTo(map).bindPopup("Wuppertal").openPopup();
 
 // wms request
 var wmsLayer = L.Geoserver.wms("http://localhost:8080/geoserver/wms", {
-  layers: "SII:ChargingStationsWuppertal",
+  layers: "	SII:GasStationsWuppertal",
 });
 
 wmsLayer.addTo(map);
