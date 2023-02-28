@@ -26,3 +26,16 @@ var wmsLayer2 = L.Geoserver.wms("http://localhost:8080/geoserver/wms", {
 
 wmsLayer.addTo(map);
 wmsLayer2.addTo(map);
+
+// Add legend
+
+var layerLegend = L.Geoserver.legend("http://localhost:8080/geoserver/wms", {
+  layers: "SII:ChargingStationsWuppertal",
+});
+
+var layerLegend2 = L.Geoserver.legend("http://localhost:8080/geoserver/wms", {
+  layers: "SII:GasStationsWuppertal",
+});
+
+layerLegend.addTo(map);
+layerLegend2.addTo(map);
