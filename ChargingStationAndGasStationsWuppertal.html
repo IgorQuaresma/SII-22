@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charging Stations for E-Cars and Gas Stations in Wuppertal</title>
 
-     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
 
-      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-     crossorigin=""></script>
-<style>
-    
-    body{
-      display: block;
-      margin: 8px;
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <style>
+      body {
+        display: block;
+        margin: 8px;
       }
-        #map { height: 600px; 
-        width: 100%;}
-     
-  footer {
+      #map {
+        height: 600px;
+        width: 100%;
+      }
+
+      footer {
         text-align: center;
         padding: 3px;
         background-color: rgb(0, 0, 0);
@@ -29,160 +35,188 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-}
-  
-  
-    /* Mobile Layout Styles */
-@media only screen and (max-width: 768px) {
-  /* Header Styles */
-  header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 8px;
-  }
-  /* Main Content Styles */
-  main {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 10px;
-  }
-  /* Sidebar Styles */
-  aside {
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-  }
-  /* Article Styles */
-  article {
-      width: 100%;
-      padding: 10px;
-  }
-  /* Navbar Styles */
-  nav {
-      display: none;
-  }
-}
+      }
 
-  
-  @media only screen and (min-width: 500px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  
-  
-  /* Laptop Layout Styles */
-@media only screen and (min-width: 768px) {
-  /* Header Styles */
-  header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-  }
-  /* Main Content Styles */
-  main {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 20px;
-  }
-  /* Sidebar Styles */
-  aside {
-      width: 25%;
-      padding: 20px;
-  }
-}
-  
-  /* Desktop Layout Styles */
-@media only screen and (min-width: 1024px) {
-    /* Header Styles */
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
-    /* Main Content Styles */
-    main {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px;
-    }
-    /* Sidebar Styles */
-    aside {
-        width: 20%;
-        padding: 20px;
-    }
-    /* Article Styles */
-    article {
-        width: 75%;
-        padding: 20px;
-    }
-    /* Footer Styles */
-    footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-}
+      /* Mobile Layout Styles */
+      @media only screen and (max-width: 768px) {
+        /* Header Styles */
+        header {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 8px;
+        }
+        /* Main Content Styles */
+        main {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 10px;
+        }
+        /* Sidebar Styles */
+        aside {
+          width: 100%;
+          padding: 10px;
+          text-align: center;
+        }
+        /* Article Styles */
+        article {
+          width: 100%;
+          padding: 10px;
+        }
+        /* Navbar Styles */
+        nav {
+          display: none;
+        }
+      }
 
-  /* Responsive Navbar and Footer Styles */
-@media only screen and (max-width: 5000px) {
-    /* Navbar Styles */
-    nav {
-        flex-wrap: wrap;
-    }
-    nav a {
-        margin-bottom: 10px;
-        width: 100%;
-        text-align: center;
-    }
+      @media only screen and (min-width: 500px) {
+        /* For tablets: */
+        .col-s-1 {
+          width: 8.33%;
+        }
+        .col-s-2 {
+          width: 16.66%;
+        }
+        .col-s-3 {
+          width: 25%;
+        }
+        .col-s-4 {
+          width: 33.33%;
+        }
+        .col-s-5 {
+          width: 41.66%;
+        }
+        .col-s-6 {
+          width: 50%;
+        }
+        .col-s-7 {
+          width: 58.33%;
+        }
+        .col-s-8 {
+          width: 66.66%;
+        }
+        .col-s-9 {
+          width: 75%;
+        }
+        .col-s-10 {
+          width: 83.33%;
+        }
+        .col-s-11 {
+          width: 91.66%;
+        }
+        .col-s-12 {
+          width: 100%;
+        }
+      }
 
-    /* Footer Styles */
-    footer {
-        flex-wrap: wrap;
-    }
-    footer p {
-        width: 100%;
-        text-align: center;
-    }
-}
-  
-</style>
-    
-     
+      /* Laptop Layout Styles */
+      @media only screen and (min-width: 768px) {
+        /* Header Styles */
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+        }
+        /* Main Content Styles */
+        main {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 20px;
+        }
+        /* Sidebar Styles */
+        aside {
+          width: 25%;
+          padding: 20px;
+        }
+      }
+
+      /* Desktop Layout Styles */
+      @media only screen and (min-width: 1024px) {
+        /* Header Styles */
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+        }
+        /* Main Content Styles */
+        main {
+          display: flex;
+          justify-content: space-between;
+          margin: 20px;
+        }
+        /* Sidebar Styles */
+        aside {
+          width: 20%;
+          padding: 20px;
+        }
+        /* Article Styles */
+        article {
+          width: 75%;
+          padding: 20px;
+        }
+        /* Footer Styles */
+        footer {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+        }
+      }
+
+      /* Responsive Navbar and Footer Styles */
+      @media only screen and (max-width: 5000px) {
+        /* Navbar Styles */
+        nav {
+          flex-wrap: wrap;
+        }
+        nav a {
+          margin-bottom: 10px;
+          width: 100%;
+          text-align: center;
+        }
+
+        /* Footer Styles */
+        footer {
+          flex-wrap: wrap;
+        }
+        footer p {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
   </head>
 
- <body style ="background: url(germany-wuppertal-schwebebahn-transportation-bearbeitet.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;">
-    
-<h1 style="color: rgb(252, 252, 252); text-align: center;"> Charging Stations for E-Cars and Gas Stations in Wuppertal</h1>
-<h2 style="color: rgb(252, 252, 252); text-align: center;"> Welcome to our Website to find some Charging Stations and Gas Stations in Wuppertal!</h2>
-   
+  <body
+    style="
+      background: url(germany-wuppertal-schwebebahn-transportation-bearbeitet.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    "
+  >
+    <h1 style="color: rgb(252, 252, 252); text-align: center">
+      Charging Stations for E-Cars and Gas Stations in Wuppertal
+    </h1>
+    <h2 style="color: rgb(252, 252, 252); text-align: center">
+      Welcome to our Website to find some Charging Stations and Gas Stations in
+      Wuppertal!
+    </h2>
 
-<div id="map"></div>
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!-- Leaflet geoserver request link -->
+    <script src="lib/L.Geoserver.js"></script>
 
- <script src="StationsWuppertal.js"></script>
+    <div id="map"></div>
 
-   
-   <footer>
-  <p> SII 2022/2023</p>
-  <p>ifgi WWU Münster</p>
-  <p> Lena Long, Igor Quaresma, Felix Schewe</p>
- </footer>
- 
+    <script src="StationsWuppertal.js"></script>
+
+    <footer>
+      <p>SII 2022/2023</p>
+      <p>ifgi WWU Münster</p>
+      <p>Lena Long, Igor Quaresma, Felix Schewe</p>
+    </footer>
   </body>
-  </html>
+</html>

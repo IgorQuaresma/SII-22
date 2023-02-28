@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "leaflet-geoserver-request": "^1.2.2"
+  }
+}
