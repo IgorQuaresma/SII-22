@@ -31,10 +31,13 @@ wmsLayer2.addTo(map);
 
 var layerLegend = L.Geoserver.legend("http://localhost:8080/geoserver/wms", {
   layers: "SII:ChargingStationsWuppertal",
+  title: "Charging Station",
 });
+layerLegend.title = "Charging Station";
 
 var layerLegend2 = L.Geoserver.legend("http://localhost:8080/geoserver/wms", {
   layers: "SII:GasStationsWuppertal",
+  title: "Gas Station",
 });
 
 layerLegend.addTo(map);
