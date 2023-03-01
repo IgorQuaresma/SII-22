@@ -37,6 +37,7 @@ layerLegend.title = "Charging Station";
 /* var layerLegend2 = L.Geoserver.legend("http://localhost:8080/geoserver/wms", {
   layers: "SII:GasStationsWuppertal",
 }); */
+// did that by changing the sld file direct instead since this other approach was not working
 
 layerLegend.addTo(map);
 layerLegend2.addTo(map);
